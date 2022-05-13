@@ -1,7 +1,6 @@
 #!/bin/bash
-source ./helper.sh
-repo="https://github.com/$(git remote get-url origin | sed 's/https:\/\/github.com\///' | sed 's/git@github.com://' | sed 's/\.git//')"
-base_branch=$(git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n')
+source misc/helper.sh; init;
+base_branch=$branch
 
 # arg 1 validation: branch present
 branches=()
