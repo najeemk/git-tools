@@ -14,3 +14,6 @@ A series of tools to help increase your GitHub productivity.
     * `second_branch` (only when arg `mode=custom`):
         * Branch to Compare Against
         * comparison_branch <- second_branch
+
+### helper.sh
+* Helper Functions, Used In Other Tools
